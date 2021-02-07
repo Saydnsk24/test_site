@@ -1,0 +1,115 @@
+/**************************************************
+*
+*	CONTAINER STYLES
+*
+**************************************************/
+
+#horiz_container_outer
+{
+	width:100%;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	position:relative;
+	height:323px;
+	margin-bottom: 100px;
+	
+	
+	
+}
+
+#horiz_container
+{
+	width:4040px;
+	margin:0px;
+	padding:0px;
+	height:323px;
+}
+
+#horiz_container ul
+{
+	margin:0px; padding:0px;
+	float:left;
+}
+
+#horiz_container_inner
+{
+	padding:0px;
+	padding-left:0px;
+}
+
+#horiz_container li
+{
+	list-style:none;
+	display: inline-table;
+	margin:30px;
+}
+
+#horiz_container li img
+{
+	padding:0px;
+	margin:0px;
+}
+
+
+
+
+/**************************************************
+*
+*	SCROLLING STYLES
+*
+**************************************************/
+
+#scrollbar 
+{ 
+    position:relative; 
+    width:100%; height:1px;
+    display:block;
+    font-size:4px;
+    top:0px;
+    margin:0px auto;
+
+}
+
+#track 
+{ 
+    position:absolute; 
+    width:100%; height:1px; 
+	padding-top: 0px;
+	
+    background: #A8A8A8;
+    -webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	
+}
+
+#dragBar 
+{
+	
+    position:absolute; left:0px; top:0px;
+    width:54px; height:11px; 
+    -webkit-border-radius: 5.5px;
+	-moz-border-radius: 5.5px;
+	border-radius: 5.5px;
+    background-color: #E8232E;
+	
+
+}  
+  
+#left_scroll
+{ 
+	position:absolute; 
+
+	
+}  
+
+#right_scroll 
+{ 
+	position:absolute; 
+	
+}
+
+/* Prevent selection problem */
+#scrollbar, #track, #dragBar, #left, #right {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}

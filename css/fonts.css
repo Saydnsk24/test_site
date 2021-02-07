@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('../fonts/Prata-Regular.ttf')
+}
+@font-face {
+    font-family: 'Open Sans Light';
+    src: url('../fonts/Inter-Light.ttf')
+}
+@font-face {
+    font-family: 'Open Sans Medium';
+    src: url('../fonts/Inter-Medium.ttf')
+}
+@font-face {
+    font-family: 'Open Sans Regular Inter';
+    src: url('../fonts/Inter-Regular.ttf')
+}
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: url('../fonts/Inter-Bold.ttf')
+}
+@font-face {
+    font-family: 'Open Sans Regular Roboto';
+    src: url('../fonts/Roboto-Regular.ttf')
+}
